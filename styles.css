@@ -530,7 +530,7 @@ img.rounded-circle {
 
 @media screen and (max-width: 576px) {
   .h1 {
-    font-size: 3.5rem;
+    font-size: 2.5rem;
     margin-bottom: 5px;
     font-weight: 700;
     color: var(--primary-color);
@@ -539,7 +539,7 @@ img.rounded-circle {
 
 @media screen and (max-width: 576px) {
   .h3 {
-    font-size: 1.5rem;
+    font-size: 1rem;
     margin-bottom: 5px;
     font-weight: 700;
     color: var(--primary-color);
