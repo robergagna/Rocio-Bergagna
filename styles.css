@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=TikTok+Sans:opsz,wght@12..36,300..900&display=swap');
 
 /* 1. VARIABLES DE DISEÑO */
 :root {
@@ -7,6 +8,7 @@
   --pink-color: #E515FF;
   --green-color: #00FF67;
   --font-family-base:  "Space Mono", monospace;
+  --font-family-sec: "Open Sans", sans-serif;
 }
 
 /* 2. ESTILOS GENERALES */
@@ -75,7 +77,7 @@ h1, h2, h3, h4, h5 {
 }
 
 .h1 {
-  font-size: 4rem;
+  font-size: 4.5rem;
   margin-bottom: 5px;
   font-weight: 700;
   color: var(--primary-color);
@@ -83,13 +85,13 @@ h1, h2, h3, h4, h5 {
 
 .h2 {
   font-size: 2.5rem;
-  margin-bottom: 5px;
+  margin-bottom: 10px;
   font-weight: 700;
   color: var(--primary-color);
 }
 
 .h3 {
-  font-size: 2rem;
+  font-size: 2.5rem;
   margin-bottom: 5px;
   font-weight: 700;
   color: var(--primary-color);
@@ -116,28 +118,42 @@ p {
 
 .bgplan1 {
   background: url("assets/fotos/fondos/fondoplanesw.jpg");
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
 }
 
 .bgincluye {
   background: url("assets/fotos/fondos/fondoqueincluyew.jpg");
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
-  background-position: center center;
+  background-position: center bottom;
 }
 
 .bggalery {
   background: url("assets/fotos/fondos/fondogaleriaw.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center top;
+}
+
+.bgcontact {
+  background: url("assets/fotos/fondos/fondocontact.jpg");
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center center;
 }
 
-.bgcontact {
-  background: url("assets/fotos/fondos/fondoqueincluyew.jpg");
-  background-size: contain;
+.bgcta {
+  background: url("assets/fotos/fondos/fondocta.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.bgdetalle {
+  background: url("assets/fotos/fondos/fondoherodetalle.jpg");
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
 }
@@ -223,6 +239,10 @@ section h2::after {
   padding-right: 1.5rem;
 }
 
+.card-test:hover {
+  transform: translateY(-5px)
+}
+
 .masonry__container {
   column-count: 4;
   column-gap: 1rem;
@@ -236,12 +256,14 @@ section h2::after {
 }
 
 .card-text {
+  font-family: "TikTok Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
   color:#fff;
 }
 
 /* 7. TESTIMONIOS */
 .blockquote {
-  background-color: var(--secondary-color);
   color: #000;
   border-left: 4px solid var(--primary-color);
   padding: 20px;
@@ -265,6 +287,12 @@ form button.btn-primary {
 /* 9. FOOTER */
 footer {
   background-color: var(--primary-color);
+  color: #ffffff;
+  font-size: 0.9rem;
+}
+
+footer-2 {
+  background-color: #00000a;
   color: #ffffff;
   font-size: 0.9rem;
 }
@@ -330,6 +358,12 @@ img.rounded-circle {
   color: #000;
 }
 
+.h62-custom {
+  font-size: 4rem;
+  font-weight: 400;
+  color: (--pink-color);
+}
+
 .h7-custom {
   font-size: 1.25rem;
   font-weight: 700;
@@ -345,14 +379,27 @@ img.rounded-circle {
 }
 
 .h9-custom {
+  font-family: "TikTok Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
   font-size: 1.25rem;
-  font-weight: 700;
   color: #fff;
   line-height: 1.6;
 }
 
+.h52-custom {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: (--pink-color);
+}
+
+.titulo-espaciado {
+  margin-top: 200px;
+}
+
 /* PÁRRAFOS Y TEXTOS */
 .p-custom {
+  font-family: (--font-family-sec);
   font-size: 1.25rem;
   color: var(--primary-color);
   line-height: 1.6;
@@ -372,8 +419,10 @@ img.rounded-circle {
 }
 
 .lead-custom {
+  font-family: "TikTok Sans", sans-serif;
+  font-optical-sizing: auto;
   font-size: 1.25rem;
-  font-weight: 400;
+  font-weight: 300;
   color: var(--secondary-color);
 }
 
@@ -393,6 +442,10 @@ img.rounded-circle {
   background-color: rgba(0,0,0,0.5);
   backdrop-filter: blur(5px);
   color: #fff;
+}
+
+.bg-celeste {
+  background-color: #063357;
 }
 
 .img-rounded {
@@ -454,5 +507,86 @@ img.rounded-circle {
 @media screen and (max-width: 576px) {
   .masonry__container {
     column-count: 1;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .bgincluye {
+    background: url("assets/fotos/fondos/vertical/vertincluye-11.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .bghero {
+    background: url("assets/fotos/fondos/vertical/fondoherovert.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .h1 {
+    font-size: 3.5rem;
+    margin-bottom: 5px;
+    font-weight: 700;
+    color: var(--primary-color);
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .h3 {
+    font-size: 1.5rem;
+    margin-bottom: 5px;
+    font-weight: 700;
+    color: var(--primary-color);
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .bguniverso {
+    background: url("assets/fotos/fondos/vertical/fondouniversovert.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .bgplan1 {
+  background: url("assets/fotos/fondos/vertical/fondoplanesvert.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .bgincluye {
+  background: url("assets/fotos/fondos/vertical/fondoincluyevert.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .bggalery {
+  background: url("assets/fotos/fondos/vertical/galleryvert.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center top;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .bgcontact {
+    background: url("assets/fotos/fondos/vertical/contactvert.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
   }
 }
