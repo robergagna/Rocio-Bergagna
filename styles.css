@@ -284,6 +284,63 @@ form button.btn-primary {
   margin-top: 20px;
 }
 
+/* PREG FRECUENTES */
+/* Fondo del contenedor completo */
+.accordion {
+  background-color: #00000A;
+  border-radius: 8px;
+}
+
+/* Cada ítem */
+.accordion-item {
+  border: none;
+  border-bottom: 2px solid var(--primary-color);
+  background-color: #00000A;
+  border-radius: 4px;
+  margin-bottom: 1rem;
+}
+
+/* Botón (pregunta) */
+.accordion-button {
+  background-color: #00000A;
+  color: var(--secondary-color);
+  font-family: "TikTok Sans", sans-serif;
+  font-weight: 600;
+  font-size: 1.2rem;
+  padding: 1rem;
+  border: none;
+  box-shadow: none;
+}
+
+/* Botón cuando está activo (abierto) */
+.accordion-button:not(.collapsed) {
+  color: var(--secondary-color);
+  background-color: #00000A;
+}
+
+/* Flechita (ícono) */
+.accordion-button::after {
+  filter: brightness(0) saturate(100%) invert(56%) sepia(17%) saturate(3330%) hue-rotate(165deg) brightness(102%) contrast(95%);
+}
+
+/* Respuesta (cuerpo) */
+.accordion-body {
+  background-color: #00000A;
+  font-family: "TikTok Sans", sans-serif;
+  font-weight: 300;
+  font-size: 1.1rem;
+  color: #ffffff;
+  padding: 1rem;
+}
+
+.accordion-button:focus {
+  box-shadow: none;
+}
+
+.accordion-button:not(.collapsed) {
+  box-shadow: none;
+}
+
 /* 9. FOOTER */
 footer {
   background-color: var(--primary-color);
@@ -539,7 +596,7 @@ img.rounded-circle {
 
 @media screen and (max-width: 576px) {
   .h3 {
-    font-size: 1rem;
+    font-size: 1.5rem;
     margin-bottom: 5px;
     font-weight: 700;
     color: var(--primary-color);
