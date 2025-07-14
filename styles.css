@@ -190,7 +190,7 @@ p {
 
 /* 5. SECCIONES */
 section {
-  padding: 0px 30px;
+  padding: 0px 10px;
 }
 
 section h2 {
@@ -203,8 +203,6 @@ section h2::after {
   content: "";
   display: block;
   width: 60px;
-  height: 3px;
-  background: var(--primary-color);
   margin: 20px auto 0;
 }
 
@@ -325,7 +323,7 @@ form button.btn-primary {
 
 /* Respuesta (cuerpo) */
 .accordion-body {
-  background-color: #00000A;
+  background-color: #063357;
   font-family: "TikTok Sans", sans-serif;
   font-weight: 300;
   font-size: 1.1rem;
