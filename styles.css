@@ -84,7 +84,7 @@ h1, h2, h3, h4, h5 {
 }
 
 .h2 {
-  font-size: 2.5rem;
+  font-size: 2rem;
   margin-bottom: 10px;
   font-weight: 700;
   color: var(--primary-color);
@@ -95,6 +95,18 @@ h1, h2, h3, h4, h5 {
   margin-bottom: 5px;
   font-weight: 700;
   color: var(--primary-color);
+}
+
+.h5 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #E515FF;
+}
+
+.h6 {
+  font-size: 4rem;
+  font-weight: 400;
+  color: #E515FF;
 }
 
 p {
@@ -156,7 +168,29 @@ p {
   background: url("assets/fotos/fondos/fondoherodetalle.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center center;
+  background-position: right center;
+}
+
+.bggeek {
+  background: url("assets/fotos/fondos/bggeekswap.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center bottom;
+}
+
+.bgbenef {
+  background: url("assets/fotos/fondos/bgbeneficios.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center top;
+}
+
+.bgitems {
+  background: url("assets/fotos/fondos/bgitems.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right center;
+  background-size: 1200px;
 }
 
 /* Botones */
@@ -371,20 +405,20 @@ img.rounded-circle {
 
 /* TITULOS */
 .h1-custom {
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   font-weight: 700;
   line-height: 1.4;
   color: var(--primary-color);
 }
 
 .h2-custom {
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   font-weight: 700;
   color: var(--pink-color);
 }
 
 .h3-custom {
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   font-weight: 700;
   line-height: 1.4;
   color: var(--green-color);
@@ -476,6 +510,14 @@ img.rounded-circle {
   color: var(--secondary-color);
 }
 
+.linea-rosa {
+  border: none;             
+  height: 3px;              
+  background-color: #E515FF;  
+  opacity: 100%;
+  margin: 2rem 0;           
+}
+
 /* FONDOS E IMÁGENES */
 .bg-cover {
   background-size: cover;
@@ -496,6 +538,10 @@ img.rounded-circle {
 
 .bg-celeste {
   background-color: #063357;
+}
+
+.bg-pink {
+  background-color: #370042;
 }
 
 .bg-black {
@@ -530,6 +576,11 @@ img.rounded-circle {
 .section-spacing-sm {
   padding-top: 50px;
   padding-bottom: 50px;
+}
+
+.section-spacingh {
+  padding-left: 100px;
+  padding-right: 100px;
 }
 
 
@@ -593,7 +644,7 @@ img.rounded-circle {
 
 @media screen and (max-width: 576px) {
   .h3 {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     margin-bottom: 5px;
     font-weight: 700;
     color: var(--primary-color);
@@ -642,5 +693,23 @@ img.rounded-circle {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .bggeek {
+    background: url("assets/fotos/fondos/vertical/bggeekswapvert.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .bgitems {
+    background: url("assets/fotos/fondos/vertical/bgbeneficiosvert.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center top;
   }
 }
