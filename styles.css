@@ -8,7 +8,7 @@
   --pink-color: #E515FF;
   --green-color: #00FF67;
   --font-family-base:  "Space Mono", monospace;
-  --font-family-sec: "Open Sans", sans-serif;
+  --font-family-sec: "TikTok Sans", sans-serif;
 }
 
 /* 2. ESTILOS GENERALES */
@@ -98,8 +98,9 @@ h1, h2, h3, h4, h5 {
 }
 
 p {
+  font-family: "TikTok Sans", sans-serif;
   font-size: 1rem;
-  color: #6c757d;
+  color: #ffffff;
 }
 
 .bghero {
@@ -286,7 +287,7 @@ form button.btn-primary {
 /* Fondo del contenedor completo */
 .accordion {
   background-color: #00000A;
-  border-radius: 8px;
+  border-radius: 0px;
 }
 
 /* Cada ítem */
@@ -294,7 +295,7 @@ form button.btn-primary {
   border: none;
   border-bottom: 2px solid var(--primary-color);
   background-color: #00000A;
-  border-radius: 4px;
+  border-radius: 0px;
   margin-bottom: 1rem;
 }
 
@@ -342,12 +343,6 @@ form button.btn-primary {
 /* 9. FOOTER */
 footer {
   background-color: var(--primary-color);
-  color: #ffffff;
-  font-size: 0.9rem;
-}
-
-footer-2 {
-  background-color: #00000a;
   color: #ffffff;
   font-size: 0.9rem;
 }
@@ -501,6 +496,10 @@ img.rounded-circle {
 
 .bg-celeste {
   background-color: #063357;
+}
+
+.bg-black {
+  background-color: #00000A;
 }
 
 .img-rounded {
