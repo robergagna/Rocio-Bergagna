@@ -706,7 +706,7 @@ img.rounded-circle {
 }
 
 @media screen and (max-width: 576px) {
-  .bgitems {
+  .bgbenef {
     background: url("assets/fotos/fondos/vertical/bgbeneficiosvert.jpg");
     background-size: cover;
     background-repeat: no-repeat;
