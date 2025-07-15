@@ -26,7 +26,7 @@
 <nav class="navbar navbar-expand-lg fixed-top">
   <div class="container">
     <!-- Logo o nombre del sitio -->
-    <img src="assets/svg/colecclublogo.svg" alt="Icono" height="40">
+    <a href="#hero"><img src="assets/svg/colecclublogo.svg" alt="Icono" height="40"></a>
     <!-- Botón para mostrar menú en mobile -->
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
       <span class="navbar-toggler-icon"></span>
@@ -34,11 +34,11 @@
     <!-- Ítems del menú -->
     <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
       <ul class="navbar-nav">
-        <li class="nav-item"><a class="nav-link" href="#">QUE ES COLECCLUB</a></li>
-        <li class="nav-item"><a class="nav-link" href="#">NUESTRAS CAJAS</a></li>
-        <li class="nav-item"><a class="nav-link" href="#">COMUNIDAD</a></li>
-        <li class="nav-item"><a class="nav-link" href="#">PREG FRECUENTES</a></li>
-        <li class="nav-item"><a class="nav-link" href="#">CONTACTO</a></li>
+        <li class="nav-item"><a class="nav-link" href="#01">QUE ES COLECCLUB</a></li>
+        <li class="nav-item"><a class="nav-link" href="#02">NUESTRAS CAJAS</a></li>
+        <li class="nav-item"><a class="nav-link" href="#03">COMUNIDAD</a></li>
+        <li class="nav-item"><a class="nav-link" href="#04">PREG FRECUENTES</a></li>
+        <li class="nav-item"><a class="nav-link" href="#05">CONTACTO</a></li>
       </ul>
     </div>
   </div>
@@ -46,7 +46,7 @@
 <!-- /NAVBAR -->
 
 <!-- HERO: Sección de portada con llamado a la acción -->
-<section class="section contain bghero d-flex align-items-center justify-content-between" style="min-height: 100vh; padding-top: 100px;">
+<section id="hero" section class="section contain bghero d-flex align-items-center justify-content-between" style="min-height: 100vh; padding-top: 100px;">
   <div class="section container">
     <div class="row align-items-center">
       <!-- Texto principal -->
@@ -55,7 +55,7 @@
         <h1 class="h1">EN UNA CAJA</h1>
         <p class="lead-custom">Para amantes del Anime, Marvel, Star Wars, Harry Potter, Comics y mucho más.</p>
         <div class="d-flex mt-4" style="padding-bottom: 30px;">
-          <a href="#" class="btn btn-dark">COMENZÁ HOY</a>
+          <a href="#02" class="btn btn-dark">COMENZÁ HOY</a>
        </div>
      </div>
       <!-- Imagen destacada -->
@@ -89,7 +89,7 @@
 <!-- /RECIBIRLA ES ASI DE FACIL -->
 
 <!-- SECCIÓN B1: 01 QUE ES COLECCLUB -->
-<section class="section cover bguniverso d-flex align-items-center justify-content-between">
+<section id="01" section class="section cover bguniverso d-flex align-items-center justify-content-between">
   <div class="section-spacing container ">
     <div class="row align-items-center">
       <!-- Columna de imagen -->
@@ -104,14 +104,14 @@
         <h2 class="h2" style="padding-top: 30px;">UN UNIVERSO FRIKI</h2>
         <p class="lead-custom">COLECCLUB es una suscripción mensual que te envía una caja sorpresa a domicilio con objetos coleccionables de tus universos frikis favoritos: figuras, stickers, revistas y mucho mas.</p>
         <h2 class="h2-custom">CON ENVÍO GRATIS A TODO EL PAÍS</h2>
-        <a href="#" class="btn btn-dark">CONOCÉ LOS PLANES</a>
+        <a href="#02" class="btn btn-dark">CONOCÉ LOS PLANES</a>
       </div>
     </div>
   </div>
 </section>
 
 <!-- PLANES DE SUSCRIPCIÓN: Sección con 3 opciones destacadas -->
-<section class="section cover bgplan1">
+<section id="02" section class="section cover bgplan1">
   <div class="section container">
     <img src="assets/svg/num02t.svg" alt="Icono" height="25">
       <div class="section container text-center">
@@ -147,7 +147,7 @@
             <h5 class="h5-custom">$6.990 <small>/mes</small></h5>
 
             <!-- Botón CTA -->
-            <a href="#" class="btn btnplan">QUIERO SABER MÁS</a>
+            <a href="detalle.html" class="btn btnplan">QUIERO SABER MÁS</a>
             <img src="assets/svg/fanlevel1.svg" alt="Icono" style="padding-top: 20px;">
           </div>
         </div>
@@ -180,7 +180,7 @@
             <h5 class="h5-custom">$12.990 <small>/mes</small></h5>
 
             <!-- Botón CTA -->
-            <a href="#" class="btn btnplan">QUIERO SABER MÁS</a>
+            <a href="detalle.html" class="btn btnplan">QUIERO SABER MÁS</a>
             <img src="assets/svg/fanlevel2.svg" alt="Icono" style="padding-top: 20px;">
           </div>
         </div>
@@ -221,7 +221,7 @@
 <!-- SECCIÓN B1: QUE INCLUYE -->
 <section class="section-spacing-sm cover bgincluye py-5 px-4 d-flex align-items-center justify-content-between">
   <div class="section-spacing container ">
-    <div class="row align-items-center" style="padding-bottom: 100px;">
+    <div class="row align-items-center" style="padding-bottom: 20px;">
       <!-- Columna de texto -->
       <div class="col-lg-6">
         <h2 class="h2">¿QUÉ INCLUYEN LAS CAJAS?</h2>
@@ -248,7 +248,7 @@
 
 
 <!-- TESTIMONIOS-->
-<section class="section bg-celeste">
+<section id="03" section class="section bg-celeste">
   <div class="section container">
     <img src="assets/svg/num03t.svg" alt="Icono" height="25">
   </div>
@@ -320,12 +320,12 @@
 <section class="section-spacing container contain bgcta text-center my-5">
   <h2 class="h2">¿LISTO PARA COMENZAR?</h2>
   <p class="lead-custom">Tu próxima caja colecclub te está esperando!</p>
-  <a href="#" class="btn btn-dark mt-4">COMENZÁ AHORA</a>
+  <a href="#02" class="btn btn-dark mt-4">COMENZÁ AHORA</a>
 </section>
 <!-- /CTA -->
 
 <!-- FAQS: Preguntas frecuentes -->
-<section class="section-spacing container p-4">
+<section id="04" section class="section-spacing container p-4">
   <img src="assets/svg/num04t.svg" alt="Icono" height="25">
   <div class="section conteiner text-center">
     <h2 class="h2" style="padding-top: 30px;">RESPONDEMOS TUS DUDAS</h2>
@@ -400,7 +400,7 @@
 <!-- /FAQS -->
 
 <!-- CONTACT FORM: Formulario de contacto -->
-<section class="section cover bgcontact d-flex align-items-center justify-content-between">
+<section id="05" section class="section cover bgcontact d-flex align-items-center justify-content-between">
   <div class="section-spacing container ">
     <div class="row align-items-center">
       <!-- Columna de imagen -->

@@ -638,8 +638,8 @@ img.rounded-circle {
 
 @media screen and (max-width: 576px) {
   .padding-items {
-    padding-left: 0px;
-    padding-right: 0px;
+    padding-left: 50px;
+    padding-right: 50px;
   }
 }
 
@@ -711,7 +711,7 @@ img.rounded-circle {
   background: url("assets/fotos/fondos/vertical/galleryvert.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center top;
+  background-position: left top;
   }
 }
 
