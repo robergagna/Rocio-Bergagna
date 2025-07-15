@@ -174,7 +174,7 @@ p {
   background: url("assets/fotos/fondos/fondoherodetalle.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: right center;
+  background-position: center center;
 }
 
 .bggeek {
@@ -638,8 +638,8 @@ img.rounded-circle {
 
 @media screen and (max-width: 576px) {
   .padding-items {
-    padding-left: 50px;
-    padding-right: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
   }
 }
 
@@ -691,7 +691,7 @@ img.rounded-circle {
 @media screen and (max-width: 576px) {
   .bgplan1 {
   background: url("assets/fotos/fondos/vertical/fondoplanesvert.jpg");
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
   }
@@ -739,5 +739,23 @@ img.rounded-circle {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center top;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .bgdetalle {
+    background: url("assets/fotos/fondos/vertical/detallevert.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left top;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .bgitems {
+    background-color: #00000A;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
   }
 }
