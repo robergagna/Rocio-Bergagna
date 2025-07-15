@@ -21,6 +21,12 @@ body {
   scroll-behavior: smooth;
 }
 
+.text-degrade {
+  background: linear-gradient(90deg, #E515FF, #9439FF);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 /* 3. NAVBAR */
 .navbar {
   background-color: transparent;
@@ -202,12 +208,13 @@ p {
 }
 
 .btn-dark {
-  background-color: var(--pink-color);
+  background: linear-gradient(90deg, #E515FF, #9439FF);
   border: none;
 }
 
 .btn-dark:hover {
-  background-color: var(--primary-color);
+  background: linear-gradient(90deg, #B100AF, #7100A3);
+  transition: all 1s ease;
 }
 
 .btnplan {
@@ -278,6 +285,11 @@ section h2::after {
 
 .padding-card {
   padding: 40px;
+}
+
+.padding-items {
+  padding-left: 150px;
+  padding-right: 150px;
 }
 
 .masonry__container {
@@ -388,6 +400,11 @@ footer {
 /* 10. IMÁGENES */
 img.rounded-circle {
   border: 5px solid var(--pink-color);
+}
+
+.img-gallery:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s
 }
 
 /* 11. GALERÍA */
@@ -517,7 +534,7 @@ img.rounded-circle {
 .linea-rosa {
   border: none;             
   height: 3px;              
-  background-color: #E515FF;  
+  background: linear-gradient(90deg, #E515FF, #9439FF);  
   opacity: 100%;
   margin: 2rem 0;           
 }
@@ -616,6 +633,13 @@ img.rounded-circle {
 @media screen and (max-width: 576px) {
   .masonry__container {
     column-count: 1;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .padding-items {
+    padding-left: 0px;
+    padding-right: 0px;
   }
 }
 
