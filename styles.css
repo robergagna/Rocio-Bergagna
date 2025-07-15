@@ -745,7 +745,7 @@ img.rounded-circle {
 @media screen and (max-width: 576px) {
   .bgdetalle {
     background: url("assets/fotos/fondos/vertical/detallevert.jpg");
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
     background-position: left top;
   }
