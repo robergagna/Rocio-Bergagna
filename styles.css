@@ -69,6 +69,7 @@ body {
   border: 1px solid var(--primary-color);
 }
 
+
 /* 4. HERO */
 .row.p-5 {
   min-height: 90vh;
@@ -638,8 +639,8 @@ img.rounded-circle {
 
 @media screen and (max-width: 576px) {
   .padding-items {
-    padding-left: 30px;
-    padding-right: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
   }
 }
 
@@ -758,4 +759,34 @@ img.rounded-circle {
     background-repeat: no-repeat;
     background-position: center center;
   }
+}
+
+/* Personalizar las 3 linitas del botón hamburguesa */
+.navbar-toggler {
+  border: none;
+  padding: 0.25rem 0.75rem;
+}
+
+.navbar-toggler-icon {
+  width: 1.5em;
+  height: 1.5em;
+  position: relative;
+  background: none;
+  border: none;
+}
+
+.navbar-toggler-icon::before,
+.navbar-toggler-icon::after,
+.navbar-toggler-icon div {
+  content: '';
+  display: block;
+  background-color: var(--primary-color);
+  height: 2px;
+  margin: 5px 0;
+  transition: all 0.3s ease;
+}
+
+/* Estructura interna */
+.navbar-toggler-icon div {
+  background-color: var(--primary-color);
 }
