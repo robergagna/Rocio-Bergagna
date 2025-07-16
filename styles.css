@@ -790,3 +790,33 @@ img.rounded-circle {
 .navbar-toggler-icon div {
   background-color: var(--primary-color);
 }
+
+
+/*Hover icons*/
+
+.icon1 {
+  content: url("assets/gif/icon1.jpg");
+  transition: 0.3s ease-in-out;
+}
+
+.icon1:hover {
+  content: url("assets/gif/gif1.gif");
+}
+
+.icon2 {
+  content: url("assets/gif/icon2.jpg");
+  transition: 0.3s ease-in-out;
+}
+
+.icon2:hover {
+  content: url("assets/gif/gif2.gif");
+}
+
+.icon3 {
+  content: url("assets/gif/icon3.jpg");
+  transition: 0.3s ease-in-out;
+}
+
+.icon3:hover {
+  content: url("assets/gif/gif3.gif");
+}
