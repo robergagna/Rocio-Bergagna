@@ -820,3 +820,39 @@ img.rounded-circle {
 .icon3:hover {
   content: url("assets/gif/gif3.gif");
 }
+
+.icon4 {
+  content: url("assets/gif/icon4.jpg");
+  transition: 0.3s ease-in-out;
+}
+
+.icon4:hover:hover {
+  content: url("assets/gif/gif4.gif");
+}
+
+.icon5 {
+  content: url("assets/gif/icon5.jpg");
+  transition: 0.3s ease-in-out;
+}
+
+.icon5:hover:hover {
+  content: url("assets/gif/gif5.gif");
+}
+
+.icon6 {
+  content: url("assets/gif/icon6.jpg");
+  transition: 0.3s ease-in-out;
+}
+
+.icon6:hover:hover {
+  content: url("assets/gif/gif6.gif");
+}
+
+.icon7 {
+  content: url("assets/gif/icon7.jpg");
+  transition: 0.3s ease-in-out;
+}
+
+.icon7:hover:hover {
+  content: url("assets/gif/gif7.gif");
+}
